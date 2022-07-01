@@ -10,7 +10,7 @@ int main()
 	starting:
 	system("cls");
 	cout<<"\t\t\t|-------------------------------------------------------|\n";
-	cout<<"\t\t\t|              Adones  Fast Food Ordering System        |\n";
+	cout<<"\t\t\t|              Ahmedabad  Fast Food Ordering System        |\n";
 	cout<<"\t\t\t|-------------------------------------------------------|\n\n";
 	cout<<"Please Enter Your Name: ";
 	cin.getline(fullname, 20);
@@ -64,25 +64,25 @@ int main()
 			 cout<<"\t\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<piz1;
 			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\n\nThank you For Ordering From Adones Fast Food\n";
+			 cout<<"\n\nThank you For Ordering From Ahmedabad Fast Food\n";
 			 break;
 			 case 2:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<"  "<<piz2;
 			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Adones Fast Food\n";
+			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
 			 break;
 			 case 3:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<piz3;
 			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Adones Fast Food\n";
+			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
 			 break;
 			 case 4:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<piz4;
 			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Adones Fast Food\n";
+			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
 			 break;
 
 			}
@@ -132,19 +132,19 @@ int main()
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<burger_1;
 			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Adones Fast Food \n";
+			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food \n";
 			 break;
 			 case 2:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<"  "<<burger_2;
 			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Adones Pizza\n";
+			 cout<<"\nThank you For Ordering From Ahmedabad Pizza\n";
 			 break;
 			 case 3:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<burger_3;
 			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Adones Fast Food\n";
+			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
 			 break;
 
 
@@ -190,19 +190,19 @@ int main()
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<sandwich_1;
 			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Adones Fast Food\n";
+			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
 			 break;
 			 case 2:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<"  "<<sandwich_2;
 			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Adones Fast Food\n";
+			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
 			 break;
 			 case 3:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<sandwich_2;
 			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Adones Fast Food\n";
+			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
 			 break;
 
 
@@ -249,19 +249,19 @@ int main()
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<drinks1;
 			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 1 Minutes";
-			 cout<<"\nThank you For Ordering From Adones Fast Food\n";
+			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
 			 break;
 			 case 2:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<"  "<<drinks2;
 			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 1 Minutes";
-			 cout<<"\nThank you For Ordering From Adones Fast Food\n";
+			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
 			 break;
 			 case 3:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<drinks3;
 			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 1 Minutes";
-			 cout<<"\nThank you For Ordering From Adones Fast Food\n";
+			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
 			 break;
 
 
@@ -300,19 +300,19 @@ int main()
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<fried1;
 			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Adones Fast Food \n";
+			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food \n";
 			 break;
 			 case 2:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<"  "<<fried2;
 			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Adones Fast Food\n";
+			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
 			 break;
 			 case 3:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<fried3;
 			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Adones Fast Food\n";
+			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
 			 break;
 
 
