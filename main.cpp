@@ -1,11 +1,10 @@
 #include<iostream>
-#include<conio.h>
 using namespace std;
 int main()
 {
-	char fullname[30], piz1[]="Chicken Fazita" ,piz2[]="Chicken Bar BQ" ,piz3[]="Peri Peri" ,piz4[]="Creamy Max", drinks1[]="Mountain Dew", drinks2[]="Coca Cola", drinks3[]="Royal",burger_1[]="Zinger Burger",burger_2[]="Chicken Burger",burger_3[]="Beef Burger";
-	char sandwich_1[]="Club Sandwich", sandwich_2[]="Chicken Crispy Sandwich", sandwich_3[]="Extream Veg Sandwich";
-	char fried1[]="Chicken Fried", fried2[]="Prawn Fried", fried3[]="Beef Fried",gotobeginning ;
+	char fullname[30], piz1[]="Margreta" ,piz2[]="paneer tikka cheesy" ,piz3[]="Peri Peri" ,piz4[]="Garlic Bread", drinks1[]="Mountain Dew", drinks2[]="Coca Cola", drinks3[]="Thums-Up",burger_1[]="Aloo tikki Burger",burger_2[]="Chicken Burger",burger_3[]="maxican Burger";
+	char sandwich_1[]="Aloo muter Sandwich", sandwich_2[]="Chicken Crispy Sandwich", sandwich_3[]="Vegiterian Sandwich";
+	char fried1[]="Chicken Fried", fried2[]="french Fried", fried3[]="Panir tikka Fried",gotobeginning ;
 	int option=0,pizzaoption,pizzaoption1, qty;// time=40;
 	starting:
 	system("cls");
@@ -38,7 +37,7 @@ int main()
 		cin>>pizzaoption;
 		if(pizzaoption>=1 && pizzaoption<=5)
 		{
-			cout<<"\n1) Small P250.00\n"<<"2) Regular P500.00\n"<<"3) Large P900.00\n";
+			cout<<"\n1) Small 250.00\n"<<"2) Regular 500.00\n"<<"3) Large 900.00\n";
 			cout<<"\nChoose Size Please:";
 			cin>>pizzaoption1;
 			if(pizzaoption1>=1 && pizzaoption1<=3)
@@ -63,26 +62,26 @@ int main()
 			 case 1:
 			 cout<<"\t\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<piz1;
-			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\n\nThank you For Ordering From Ahmedabad Fast Food\n";
+			 cout<<"\nYour Total Bill is : \n "<<option<<"\nYour Order Will be delivered in 40 Minutes";
+			 cout<<"\n\n**********Thank you For Ordering From Ahmedabad Fast Food**********\n";
 			 break;
 			 case 2:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<"  "<<piz2;
-			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
+			 cout<<"\nYour Total Bill is : \n "<<option<<"\nYour Order Will be delivered in 40 Minutes";
+			 cout<<"\n**********Thank you For Ordering From Ahmedabad Fast Food**********\n";
 			 break;
 			 case 3:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<piz3;
-			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
+			 cout<<"\nYour Total Bill is : \n "<<option<<"\nYour Order Will be delivered in 40 Minutes";
+			 cout<<"\n**********Thank you For Ordering From Ahmedabad Fast Food**********\n";
 			 break;
 			 case 4:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<piz4;
-			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
+			 cout<<"\nYour Total Bill is : \n "<<option<<"\nYour Order Will be delivered in 40 Minutes";
+			 cout<<"\n**********Thank you For Ordering From Ahmedabad Fast Food**********\n";
 			 break;
 
 			}
@@ -103,9 +102,9 @@ int main()
 
 	 else if(option==2)
 	 {
-		cout<<"\n1 "<<burger_1<<" P180"<<"\n";
-		cout<<"2 "<<burger_2<<" P150"<<"\n";
-		cout<<"3 "<<burger_3<<" P160"<<"\n";
+		cout<<"\n1 "<<burger_1<<" 180"<<"\n";
+		cout<<"2 "<<burger_2<<" 150"<<"\n";
+		cout<<"3 "<<burger_3<<" 160"<<"\n";
 		//cout<<"4 "<<pizza4<<"\n";
 		cout<<"\nPlease Enter which Burger you would like to have?: ";
 		cin>>pizzaoption1;
@@ -131,20 +130,20 @@ int main()
 			 case 1:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<burger_1;
-			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food \n";
+			 cout<<"\nYour Total Bill is : \n "<<option<<"\nYour Order Will be delivered in 40 Minutes";
+			 cout<<"\n**********Thank you For Ordering From Ahmedabad Fast Food **********\n";
 			 break;
 			 case 2:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<"  "<<burger_2;
-			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Ahmedabad Pizza\n";
+			 cout<<"\nYour Total Bill is : \n "<<option<<"\nYour Order Will be delivered in 40 Minutes";
+			 cout<<"\n**********Thank you For Ordering From Ahmedabad Pizza**********\n";
 			 break;
 			 case 3:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<burger_3;
-			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
+			 cout<<"\nYour Total Bill is : \n "<<option<<"\nYour Order Will be delivered in 40 Minutes";
+			 cout<<"\n**********Thank you For Ordering From Ahmedabad Fast Food**********\n";
 			 break;
 
 
@@ -161,9 +160,9 @@ int main()
 }
 	else if(option==3)
 	 {
-		cout<<"\n1  "<<sandwich_1<<" P240.00"<<"\n";
-		cout<<"2  "<<sandwich_2<<" P160.00"<<"\n";
-		cout<<"3  "<<sandwich_3<<" P100.00"<<"\n";
+		cout<<"\n1  "<<sandwich_1<<" 240.00"<<"\n";
+		cout<<"2  "<<sandwich_2<<" 160.00"<<"\n";
+		cout<<"3  "<<sandwich_3<<" 100.00"<<"\n";
 		//cout<<"4 "<<pizza4<<"\n";
 		cout<<"\nPlease Enter which Sandwich you would like to have?:";
 		cin>>pizzaoption1;
@@ -189,19 +188,19 @@ int main()
 			 case 1:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<sandwich_1;
-			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
+			 cout<<"\nYour Total Bill is : \n "<<option<<"\nYour Order Will be delivered in 40 Minutes";
+			 cout<<"\n**********Thank you For Ordering From Ahmedabad Fast Food**********\n";
 			 break;
 			 case 2:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<"  "<<sandwich_2;
-			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
+			 cout<<"\nYour Total Bill is : \n "<<option<<"\nYour Order Will be delivered in 40 Minutes";
 			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
 			 break;
 			 case 3:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<sandwich_2;
-			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
+			 cout<<"\nYour Total Bill is : \n "<<option<<"\nYour Order Will be delivered in 40 Minutes";
 			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
 			 break;
 
@@ -220,9 +219,9 @@ int main()
 
 	 else if(option==4)
 	 {
-		cout<<"\n1 "<<drinks1<<" P15.00"<<"\n";
-		cout<<"2 "<<drinks2<<" P20.00"<<"\n";
-		cout<<"3 "<<drinks3<<" P30.00"<<"\n";
+		cout<<"\n1 "<<drinks1<<" 15.00"<<"\n";
+		cout<<"2 "<<drinks2<<" 20.00"<<"\n";
+		cout<<"3 "<<drinks3<<" 30.00"<<"\n";
 		//cout<<"4 "<<pizza4<<"\n";
 		cout<<"\nPlease Enter which you would like to have?: ";
 		cin>>pizzaoption1;
@@ -248,19 +247,19 @@ int main()
 			 case 1:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<drinks1;
-			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 1 Minutes";
+			 cout<<"\nYour Total Bill is : \n "<<option<<"\nYour Order Will be delivered in 1 Minutes";
 			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
 			 break;
 			 case 2:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<"  "<<drinks2;
-			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 1 Minutes";
+			 cout<<"\nYour Total Bill is : \n "<<option<<"\nYour Order Will be delivered in 1 Minutes";
 			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
 			 break;
 			 case 3:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<drinks3;
-			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 1 Minutes";
+			 cout<<"\nYour Total Bill is : \n "<<option<<"\nYour Order Will be delivered in 1 Minutes";
 			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
 			 break;
 
@@ -271,9 +270,9 @@ int main()
 }
 	else if(option==5)
 	 {
-		cout<<"\n1 "<<fried1<<" P160.00"<<"\n";
-		cout<<"2 "<<fried2<<" P220.00"<<"\n";
-		cout<<"3 "<<fried3<<" P140.00"<<"\n";
+		cout<<"\n1 "<<fried1<<" 160.00"<<"\n";
+		cout<<"2 "<<fried2<<" 220.00"<<"\n";
+		cout<<"3 "<<fried3<<" 140.00"<<"\n";
 		//cout<<"4 "<<pizza4<<"\n";
 		cout<<"\nPlease Enter which Fried you would like to have?:";
 		cin>>pizzaoption1;
@@ -299,20 +298,20 @@ int main()
 			 case 1:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<fried1;
-			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food \n";
+			 cout<<"\nYour Total Bill is :\n"<<option<<"\nYour Order Will be delivered in 40 Minutes";
+			 cout<<"\n**********Thank you For Ordering From Ahmedabad Fast Food **********\n";
 			 break;
 			 case 2:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<"  "<<fried2;
-			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
+			 cout<<"\nYour Total Bill is : \n"<<option<<"\nYour Order Will be delivered in 40 Minutes";
+			 cout<<"\n**********Thank you For Ordering From Ahmedabad Fast Food**********\n";
 			 break;
 			 case 3:
 			 cout<<"\t\t--------Your Order---------\n";
 			 cout<<""<<qty<<" "<<fried3;
-			 cout<<"\nYour Total Bill is \nP"<<option<<"\nYour Order Will be delivered in 40 Minutes";
-			 cout<<"\nThank you For Ordering From Ahmedabad Fast Food\n";
+			 cout<<"\nYour Total Bill is : \n"<<option<<"\nYour Order Will be delivered in 40 Minutes";
+			 cout<<"\n**********Thank you For Ordering From Ahmedabad Fast Food**********\n";
 			 break;
 
 
@@ -341,5 +340,4 @@ int main()
 			}
 			}
 
-     getch();
 }
